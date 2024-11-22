@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\T-Force\\Desktop\\Products angular\\productwebapi\\web1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97B8C6B8-5A89-4104-AA61-06846B598889}|web1\\web1.csproj|c:\\users\\t-force\\desktop\\products angular\\productwebapi\\web1\\web1\\models\\dbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B8C6B8-5A89-4104-AA61-06846B598889}|web1\\web1.csproj|solutionrelative:web1\\models\\dbmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B8C6B8-5A89-4104-AA61-06846B598889}|web1\\web1.csproj|c:\\users\\t-force\\desktop\\products angular\\productwebapi\\web1\\web1\\migrations\\20241102181449_in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B8C6B8-5A89-4104-AA61-06846B598889}|web1\\web1.csproj|solutionrelative:web1\\migrations\\20241102181449_in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B8C6B8-5A89-4104-AA61-06846B598889}|web1\\web1.csproj|c:\\users\\t-force\\desktop\\products angular\\productwebapi\\web1\\web1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B8C6B8-5A89-4104-AA61-06846B598889}|web1\\web1.csproj|solutionrelative:web1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B8C6B8-5A89-4104-AA61-06846B598889}|web1\\web1.csproj|c:\\users\\t-force\\desktop\\products angular\\productwebapi\\web1\\web1\\viewmodels\\imageuploadresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B8C6B8-5A89-4104-AA61-06846B598889}|web1\\web1.csproj|solutionrelative:web1\\viewmodels\\imageuploadresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B8C6B8-5A89-4104-AA61-06846B598889}|web1\\web1.csproj|c:\\users\\t-force\\desktop\\products angular\\productwebapi\\web1\\web1\\web1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{97B8C6B8-5A89-4104-AA61-06846B598889}|web1\\web1.csproj|solutionrelative:web1\\web1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B8C6B8-5A89-4104-AA61-06846B598889}|web1\\web1.csproj|c:\\users\\t-force\\desktop\\products angular\\productwebapi\\web1\\web1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B8C6B8-5A89-4104-AA61-06846B598889}|web1\\web1.csproj|solutionrelative:web1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B8C6B8-5A89-4104-AA61-06846B598889}|web1\\web1.csproj|c:\\users\\t-force\\desktop\\products angular\\productwebapi\\web1\\web1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{97B8C6B8-5A89-4104-AA61-06846B598889}|web1\\web1.csproj|solutionrelative:web1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbModel.cs",
+              "DocumentMoniker": "C:\\Users\\T-Force\\Desktop\\Products angular\\productwebapi\\web1\\web1\\Models\\DbModel.cs",
+              "RelativeDocumentMoniker": "web1\\Models\\DbModel.cs",
+              "ToolTip": "C:\\Users\\T-Force\\Desktop\\Products angular\\productwebapi\\web1\\web1\\Models\\DbModel.cs",
+              "RelativeToolTip": "web1\\Models\\DbModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwBIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T17:55:50.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20241102181449_In.cs",
+              "DocumentMoniker": "C:\\Users\\T-Force\\Desktop\\Products angular\\productwebapi\\web1\\web1\\Migrations\\20241102181449_In.cs",
+              "RelativeDocumentMoniker": "web1\\Migrations\\20241102181449_In.cs",
+              "ToolTip": "C:\\Users\\T-Force\\Desktop\\Products angular\\productwebapi\\web1\\web1\\Migrations\\20241102181449_In.cs",
+              "RelativeToolTip": "web1\\Migrations\\20241102181449_In.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T18:14:50.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\T-Force\\Desktop\\Products angular\\productwebapi\\web1\\web1\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "web1\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\T-Force\\Desktop\\Products angular\\productwebapi\\web1\\web1\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "web1\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAAAH8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T18:19:01.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ImageUploadResponse.cs",
+              "DocumentMoniker": "C:\\Users\\T-Force\\Desktop\\Products angular\\productwebapi\\web1\\web1\\ViewModels\\ImageUploadResponse.cs",
+              "RelativeDocumentMoniker": "web1\\ViewModels\\ImageUploadResponse.cs",
+              "ToolTip": "C:\\Users\\T-Force\\Desktop\\Products angular\\productwebapi\\web1\\web1\\ViewModels\\ImageUploadResponse.cs",
+              "RelativeToolTip": "web1\\ViewModels\\ImageUploadResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T18:13:13.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\T-Force\\Desktop\\Products angular\\productwebapi\\web1\\web1\\Program.cs",
+              "RelativeDocumentMoniker": "web1\\Program.cs",
+              "ToolTip": "C:\\Users\\T-Force\\Desktop\\Products angular\\productwebapi\\web1\\web1\\Program.cs",
+              "RelativeToolTip": "web1\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T17:53:51.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\T-Force\\Desktop\\Products angular\\productwebapi\\web1\\web1\\appsettings.json",
+              "RelativeDocumentMoniker": "web1\\appsettings.json",
+              "ToolTip": "C:\\Users\\T-Force\\Desktop\\Products angular\\productwebapi\\web1\\web1\\appsettings.json",
+              "RelativeToolTip": "web1\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-27T17:52:07.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "web1.csproj",
+              "DocumentMoniker": "C:\\Users\\T-Force\\Desktop\\Products angular\\productwebapi\\web1\\web1\\web1.csproj",
+              "RelativeDocumentMoniker": "web1\\web1.csproj",
+              "ToolTip": "C:\\Users\\T-Force\\Desktop\\Products angular\\productwebapi\\web1\\web1\\web1.csproj",
+              "RelativeToolTip": "web1\\web1.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-27T17:51:59.88Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

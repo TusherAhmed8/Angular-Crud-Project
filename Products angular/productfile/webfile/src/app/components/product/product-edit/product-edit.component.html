@@ -1,0 +1,135 @@
+<mat-card class="medium-container">
+    <mat-card-header>
+      <mat-card-title>Update Your Product </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <form [formGroup]="productForm" (ngSubmit)="save()">
+        <mat-form-field class="f-w">
+          <mat-label>Product name</mat-label>
+          <input type="text" matInput formControlName="productName" />
+          @if(f['productName'].hasError('required')){
+          <mat-error>Product name is <strong>required</strong></mat-error>
+          }
+        </mat-form-field>
+        <mat-form-field class="f-w">
+          <mat-label>Product type</mat-label>
+          <mat-select formControlName="productType">
+            @for (op of typeOptions; track op) {
+            <mat-option [value]="op.value">{{ op.label }}</mat-option>
+            }
+            
+          </mat-select>
+          @if(f['productType'].hasError('required')){
+          <mat-error>Product type is <strong>required</strong></mat-error>
+          }
+        </mat-form-field>
+        <mat-form-field class="f-w">
+          <mat-label>Mfg Date</mat-label>
+          <input
+            matInput
+            formControlName="mfgDate"
+            [matDatepicker]="picker"
+          />
+          <mat-datepicker-toggle
+            matIconSuffix
+            [for]="picker"
+          ></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+          @if(f['mfgDate'].hasError('required')){
+          <mat-error>MfgDate is <strong>required</strong></mat-error>
+          }
+        </mat-form-field>
+        <mat-form-field class="f-w">
+          <mat-label>Price</mat-label>
+          <input type="number" matInput formControlName="price" />
+          @if(f['price'].hasError('required')){
+          <mat-error>Price is <strong>required</strong></mat-error>
+          }
+        </mat-form-field>
+        <mat-form-field class="f-w">
+          <mat-label>Picture</mat-label>
+          <input
+            type="text"
+            matInput
+            formControlName="picture"
+            [readonly]="true"
+          />
+          <button
+            type="button"
+            matSuffix
+            mat-icon-button
+            aria-label="Clear"
+            (click)="pic.click()"
+          >
+            <mat-icon>photo</mat-icon>
+          </button>
+          @if(f['picture'].hasError('required')){
+          <mat-error>Picture is <strong>required</strong></mat-error>
+          }
+        </mat-form-field>
+        <div class="f-w">
+          <mat-label>In Stock?</mat-label>
+          <mat-checkbox formControlName="instock"></mat-checkbox>
+          @if(f['instock'].hasError('required')){
+          <mat-error>Product name is <strong>required</strong></mat-error>
+          }
+        </div>
+        <div class="add-row">
+          <h3>Add sale</h3>
+          <button
+            (click)="addSale()"
+            type="button"
+            mat-icon-button
+            color="accent"
+          >
+            <mat-icon>add</mat-icon>
+          </button>
+        </div>
+        <ng-container formArrayName="sales">
+          @for(fld of sales.controls;track fld;let i = $index){
+          <div [formGroupName]="i" class="sale-row">
+            <mat-form-field class="f-w">
+              <mat-label>Seller name</mat-label>
+              <input type="text" matInput formControlName="sellerName" />
+              @if(sales.controls[i].get('sellerName')?.hasError('required')){
+              <mat-error>Seller name is <strong>required</strong></mat-error>
+              }
+            </mat-form-field>
+            <mat-form-field class="f-w">
+              <mat-label>Quantity</mat-label>
+              <input type="text" matInput formControlName="quantity" />
+              @if(sales.controls[i].get('quantity')?.hasError('required')){
+              <mat-error>Quantity is <strong>required</strong></mat-error>
+              }
+            </mat-form-field>
+            <div>
+              <button
+                (click)="removeSale(i)"
+                type="button"
+                mat-icon-button
+                color="warn"
+              >
+                <mat-icon>delete</mat-icon>
+              </button>
+            </div>
+          </div>
+          }
+        </ng-container>
+        <div class="f-w">
+          <button mat-raised-button type="submit" color="primary" [disabled]="productForm.invalid">Save</button>
+        </div>
+        <input
+          type="file"
+          [hidden]="true"
+          #pic
+          (change)="pictureChanged($event)"
+        />
+      </form>
+      
+    </mat-card-content>
+    <mat-card-actions>
+      <a mat-button [routerLink]="['/products']">Back to list</a>
+    </mat-card-actions>
+  </mat-card>
+  
+

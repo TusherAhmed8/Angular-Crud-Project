@@ -1,0 +1,58 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Product List</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <div class="right">
+            <a [routerLink]="['/product-add']" mat-mini-fab><mat-icon>add</mat-icon></a>
+        </div>
+        <mat-table [dataSource]="dataSource" matSort>
+            <ng-container matColumnDef="picture" >
+                <mat-header-cell *matHeaderCellDef >Picture</mat-header-cell>
+                <mat-cell *matCellDef="let element">
+                    <img src="{{imgPath}}/{{element.picture}}" class="circle-image" />
+                </mat-cell>
+    
+            </ng-container>
+            <ng-container matColumnDef="productName" >
+                <mat-header-cell *matHeaderCellDef mat-sort-header>Product name</mat-header-cell>
+                <mat-cell *matCellDef="let element" >{{element.productName}}</mat-cell>
+            </ng-container>
+            <ng-container matColumnDef="productType" >
+                <mat-header-cell *matHeaderCellDef mat-sort-header>Product type</mat-header-cell>
+                <mat-cell *matCellDef="let element" >{{getProductTypeName( element.productType)}}</mat-cell>
+            </ng-container>
+            <ng-container matColumnDef="mfgDate" >
+                <mat-header-cell *matHeaderCellDef>MfgDate</mat-header-cell>
+                <mat-cell *matCellDef="let element">{{element.mfgDate|date:'dd-MMM-yyyy'}}</mat-cell>
+            </ng-container>
+            <ng-container matColumnDef="price" >
+                <mat-header-cell *matHeaderCellDef mat-sort-header>Price</mat-header-cell>
+                <mat-cell *matCellDef="let element">{{element.price|number:'2.2-2'}}</mat-cell>
+            </ng-container>
+            <ng-container matColumnDef="instock" >
+                <mat-header-cell *matHeaderCellDef>In Stock</mat-header-cell>
+                <mat-cell *matCellDef="let element" >{{element.instock ? 'Yes': 'No'}}</mat-cell>
+            </ng-container>
+            <ng-container matColumnDef="sales" >
+                <mat-header-cell *matHeaderCellDef>Sales</mat-header-cell>
+                <mat-cell *matCellDef="let element" >
+                    <button mat-icon-button (click)="showsale(element.productId)"><mat-icon>image_aspect_ratio</mat-icon></button>
+                </mat-cell>
+            </ng-container>
+            <ng-container matColumnDef="actions" >
+                <mat-header-cell *matHeaderCellDef>...</mat-header-cell>
+                <mat-cell *matCellDef="let element">
+                    <a type="button" color="primary" mat-icon-button [routerLink]="['/product-edit', element.productId]"><mat-icon>edit</mat-icon></a>
+                    <button type="button" color="warn" mat-icon-button (click)="deleteProduct(element)"><mat-icon>delete</mat-icon></button>
+                </mat-cell>
+            </ng-container>
+            <mat-header-row *matHeaderRowDef="columns"></mat-header-row>
+            <mat-row *matRowDef="let row; columns: columns;"></mat-row>
+
+        </mat-table>
+        <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]" [pageSize]="5" showFirstLastButtons></mat-paginator>
+
+    </mat-card-content>
+</mat-card>
+
